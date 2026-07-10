@@ -1,269 +1,625 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--
-      Updated meta description and title to better reflect the breadth of interests
-      and to highlight data‑driven engineering, inclusive technology and
-      research experience. HENNGE recruiters often view portfolio sites,
-      so keywords like “data”, “research” and “inclusive technology” help
-      reinforce the personal narrative.
-    -->
-    <meta
-      name="description"
-      content="Aryan Dhasmana – Computer Science & Business Systems student with a focus on data‑driven engineering, renewable energy analytics and inclusive technology. Pre‑final year BE student exploring cloud and research at scale."
-    />
-    <title>Aryan Dhasmana | Data &amp; Systems Engineering Student</title>
-    <!-- Reuse the existing styles. If you host the CSS in the same repo,
-         make sure style.css reflects any branding updates. -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="#hero">Aryan Dhasmana</a>
-        <button
-          class="menu-toggle"
-          aria-label="Toggle navigation"
-          aria-expanded="false"
-        >
-          ☰
-        </button>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aryan Dhasmana | Cloud & Systems Engineering</title>
+  <meta name="description"
+    content="Aryan Dhasmana — CS & Business Systems student, AWS Certified Cloud Practitioner, specializing in cloud infrastructure, automation, and applied ML." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════════ -->
+  <div class="container header-container">
+    <div class="row header-row">
+      <div class="header-left">
+        <h1>Aryan Dhasmana</h1>
+        <h2>Cloud &amp; Systems Engineering Student</h2>
       </div>
-    </header>
-
-    <main>
-      <!-- Hero section focuses on a concise summary of who you are and what you do.
-           The secondary heading emphasises research and data engineering rather
-           than purely DevOps, aligning with the GIS programme. A short intro
-           describes your mission and diverse experiences. -->
-      <section id="hero" class="hero section">
-        <div class="container">
-          <p class="prompt">$ whoami</p>
-          <h1>Aryan Dhasmana</h1>
-          <h2>Computer Science &amp; Business Systems Student</h2>
-          <ul class="hero-meta">
-            <li>Pursuing AWS Solutions Architect Certification</li>
-            <li>SPARK Research Intern at IIT Roorkee</li>
-            <li>B.Tech Computer Science &amp; Business Systems — Chandigarh University</li>
+      <div class="header-right">
+        <ul class="social-icons no-print">
+          <li>
+            <a target="_blank" rel="noopener" href="https://aryan-0102.github.io" class="btn btn-icon" title="Personal Website">
+              <i class="fas fa-globe"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener" href="https://github.com/aryan-0102" class="btn btn-icon" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/aryan-dhasmana-962967220/"
+              class="btn btn-icon" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:aryan010204@gmail.com" class="btn btn-icon" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+917818867239" class="btn btn-icon" title="Phone">
+              <i class="fas fa-phone"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="contact-details print-only">
+          <ul>
+            <li><i class="fas fa-envelope"></i> aryan010204@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +91 78188 67239</li>
+            <li><i class="fas fa-globe"></i> aryan-0102.github.io</li>
           </ul>
-          <p class="intro">
-            I enjoy building data‑driven systems that support inclusive technology and
-            global collaboration. My experiences span research in renewable energy
-            analytics, QA work with a worldwide community at DeepLearning.AI,
-            and operations improvements for a Himalayan non‑profit. I am
-            passionate about engineering solutions that scale opportunity and
-            bring people together.
-          </p>
         </div>
-      </section>
+        <p class="header-contact no-print">
+          <a href="mailto:aryan010204@gmail.com">aryan010204@gmail.com</a>
+          &nbsp;·&nbsp;
+          <a href="tel:+917818867239">+91 78188 67239</a>
+        </p>
+        <a href="#" id="download-cv-btn" class="btn-download no-print" title="Download Resume PDF">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </div>
 
-      <!-- About section tells your story: academic achievements, research and
-           volunteer work, and personal background. Each paragraph covers a
-           different aspect, making it easy to skim. -->
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            I am a pre‑final year engineering student exploring data‑driven
-            engineering, cloud systems and inclusive technology. With a CGPA of
-            <strong>8.36</strong>, my academic interests are complemented by
-            research on optimisation algorithms and aerodynamic analysis.
+  <!-- ═══════════════════════════════════════════════
+       MAIN LAYOUT
+  ═══════════════════════════════════════════════ -->
+  <div class="container main-container">
+    <div class="row content-row">
+
+      <!-- ─── LEFT SIDEBAR ─── -->
+      <div class="sidebar">
+
+        <!-- Profile Summary -->
+        <section class="sidebar-section" id="summary">
+          <h3 class="sidebar-heading">Profile</h3>
+          <p class="summary-text">
+            <strong>AWS Certified Cloud Practitioner</strong> · CS &amp; Business Systems student with experience in
+            cloud infrastructure, automation, and applied ML. Seeking Cloud Engineering or DevOps roles.
           </p>
-          <p>
-            During my <strong>SPARK research internship at IIT Roorkee</strong>, I
-            developed a Random Forest regression model to evaluate the
-            techno‑economic feasibility of renewable energy projects. The work
-            improved prediction accuracy and deepened my understanding of
-            sustainable engineering.
-          </p>
-          <p>
-            As a <strong>QA moderator &amp; content tester at DeepLearning.AI</strong>,
-            I reviewed code logic, datasets and assessments across AI
-            specialisations. Collaborating with a global community taught me
-            how to communicate clearly and iterate on quality.
-          </p>
-          <p>
-            I also worked with a non‑profit in the Himalayas to streamline
-            operations. Analysing donor data and integrating a payment system
-            reinforced my belief that technology should reduce friction and
-            expand access—especially where resources are limited.
-          </p>
-          <p>
-            Growing up in the Himalayas has shaped me in other ways too. The
-            mountains teach patience, humility and resilience—values I carry
-            into teamwork and problem solving. I enjoy hiking and see
-            engineering as a shared journey towards better systems for
-            everyone.
-          </p>
-        </div>
-      </section>
+        </section>
 
-      <!-- Experience section emphasises impact. Each entry includes role,
-           timeframe and concise bullet points that highlight achievements and
-           responsibilities. -->
-      <section id="experience" class="section">
-        <div class="container">
-          <h2>Experience</h2>
-          <div class="timeline">
-            <article class="entry">
-              <h3>SPARK Research Intern — IIT Roorkee <span>(May 2025 – Jun 2025)</span></h3>
-              <ul>
-                <li>Developed a Random Forest model for renewable energy project feasibility.</li>
-                <li>Reduced prediction error and delivered actionable insights for sustainability.</li>
-                <li>Collaborated with a multidisciplinary research team on data‑driven
-                modelling.</li>
-              </ul>
-            </article>
+        <div class="sidebar-divider"></div>
 
-            <article class="entry">
-              <h3>QA Moderator &amp; Content Tester — DeepLearning.AI <span>(Jun 2023 – Apr 2025)</span></h3>
-              <ul>
-                <li>Audited code logic, datasets and assessments across AI specialisations.</li>
-                <li>Provided structured feedback to improve course quality for learners worldwide.</li>
-                <li>Fostered clear communication and iterative improvement within a global community.</li>
-              </ul>
-            </article>
-
-            <article class="entry">
-              <h3>Operations Intern — Divine Himalayan Foundation <span>(May 2024 – Jul 2024)</span></h3>
-              <ul>
-                <li>Analysed donor and fundraising data to identify growth opportunities.</li>
-                <li>Integrated a payment gateway to automate transaction tracking and reporting.</li>
-                <li>Contributed to significant fundraising growth and streamlined processes.</li>
-              </ul>
-            </article>
-
-            <article class="entry">
-              <h3>DevOps &amp; Cloud Engineering Intern — INGEN LABS <span>(Current)</span></h3>
-              <ul>
-                <li>Supported cloud infrastructure workflows and deployment automation.</li>
-                <li>Worked with Linux environments and CI/CD practices to ensure reliability.</li>
-                <li>Helped maintain scalable infrastructure setups for live applications.</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Projects section showcases independent or academic projects. Provide
-           succinct descriptions and, if possible, link to repositories or
-           papers. -->
-      <section id="projects" class="section">
-        <div class="container">
-          <h2>Projects</h2>
-          <div class="project-grid">
-            <article class="project-card">
-              <h3>Delivery Route Optimisation — Vehicle Routing Problem (ICCTDC 2025)</h3>
-              <p>
-                Built a logistics simulation using the Artificial Bee Colony
-                algorithm to minimise travel time and improve delivery
-                efficiency.
-              </p>
-            </article>
-            <article class="project-card">
-              <h3>Aerodynamic Data Analysis — Numerical Simulation (ICAEEE 2025)</h3>
-              <p>
-                Conducted aerodynamic structural analysis to optimise winglet
-                designs, identifying configurations with improved lift‑to‑drag
-                ratios.
-              </p>
-            </article>
-            <article class="project-card">
-              <h3>ETL Data Engineering</h3>
-              <p>
-                Developed Python‑based pipelines for ingesting, processing and
-                visualising structured datasets using Pandas and NumPy.
-              </p>
-            </article>
-            <article class="project-card">
-              <h3>Unix‑Style CLI Shell (C++ Project)</h3>
-              <p>
-                Implemented a custom command‑line shell with command parsing,
-                pipes and process handling inspired by Unix environments.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Skills section organised by category. Listing core technologies and
-           personal strengths helps recruiters quickly assess fit. -->
-      <section id="skills" class="section">
-        <div class="container">
-          <h2>Skills</h2>
-          <div class="skills-grid">
-            <article>
-              <h3>Programming Languages</h3>
-              <p>Python, C++, Bash (basic scripting)</p>
-            </article>
-            <article>
-              <h3>Data &amp; ML Tools</h3>
-              <p>Pandas, NumPy, Scikit‑learn, Power BI</p>
-            </article>
-            <article>
-              <h3>Cloud &amp; DevOps</h3>
-              <p>AWS, Linux, Git, CI/CD Concepts, Deployment Pipelines</p>
-            </article>
-            <article>
-              <h3>Certifications</h3>
-              <p>AWS Certified Cloud Practitioner; pursuing AWS Solutions Architect</p>
-            </article>
-            <article>
-              <h3>Core Strengths</h3>
-              <p>Algorithmic problem‑solving, reliability engineering, technical communication</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact section updated to include correct GitHub link and site URL. -->
-      <section id="contact" class="section">
-        <div class="container">
-          <h2>Contact</h2>
+        <!-- Contact -->
+        <section class="sidebar-section no-print" id="contact">
+          <h3 class="sidebar-heading">Contact</h3>
           <ul class="contact-list">
-            <li>Email: <a href="mailto:aryan010204@gmail.com">aryan010204@gmail.com</a></li>
             <li>
-              LinkedIn:
-              <a
-                href="https://www.linkedin.com/in/aryan-dhasmana-962967220/"
-                target="_blank"
-                rel="noreferrer"
-                >aryan-dhasmana-962967220</a
-              >
+              <i class="fas fa-envelope contact-icon"></i>
+              <a href="mailto:aryan010204@gmail.com">aryan010204@gmail.com</a>
             </li>
             <li>
-              GitHub:
-              <a href="https://github.com/aryan-0102" target="_blank" rel="noreferrer"
-                >aryan-0102</a
-              >
+              <i class="fas fa-phone contact-icon"></i>
+              <a href="tel:+917818867239">+91 78188 67239</a>
             </li>
             <li>
-              Website:
-              <a href="https://aryan-0102.github.io" target="_blank" rel="noreferrer"
-                >aryan-0102.github.io</a
-              >
+              <i class="fas fa-globe contact-icon"></i>
+              <a href="https://aryan-0102.github.io" target="_blank" rel="noopener">aryan-0102.github.io</a>
+            </li>
+            <li>
+              <i class="fab fa-github contact-icon"></i>
+              <a href="https://github.com/aryan-0102" target="_blank" rel="noopener">aryan-0102</a>
             </li>
           </ul>
-        </div>
-      </section>
-    </main>
+        </section>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>&copy; <span id="year"></span> Aryan Dhasmana</p>
-      </div>
-    </footer>
+        <div class="sidebar-divider no-print"></div>
 
-    <!-- Existing script for navigation toggling and dynamic year. -->
-    <script src="script.js"></script>
-  </body>
+        <!-- Education -->
+        <section class="sidebar-section" id="education">
+          <h3 class="sidebar-heading">Education</h3>
+          <div class="edu-item">
+            <div class="edu-degree">B.Tech in Computer Science &amp; Business Systems</div>
+            <div class="edu-school">Chandigarh University</div>
+            <div class="edu-location">Mohali, Punjab</div>
+            <div class="edu-dates">Aug 2023 – Jun 2027</div>
+            <div class="edu-gpa"><span class="badge">CGPA: 8.27 / 10</span></div>
+            <p class="edu-courses">
+              <strong>Coursework:</strong> Data Structures, Computer Architecture, Operations Research,
+              Software Engineering, Statistics, Linear Algebra
+            </p>
+          </div>
+        </section>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Skills -->
+        <section class="sidebar-section" id="skills">
+          <h3 class="sidebar-heading">Technical Skills</h3>
+
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-cloud skill-cat-icon"></i> Cloud
+            </h4>
+            <div class="skill-tags">
+              <span class="tag tag-primary">AWS CCP</span>
+              <span class="tag">EC2</span>
+              <span class="tag">S3</span>
+              <span class="tag">Lambda</span>
+              <span class="tag">IAM</span>
+              <span class="tag">CloudWatch</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-terminal skill-cat-icon"></i> Infrastructure &amp; Automation
+            </h4>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub Actions</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Bash</span>
+              <span class="tag">CI/CD</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-code skill-cat-icon"></i> Languages
+            </h4>
+            <div class="skill-tags">
+              <span class="tag tag-secondary">Python</span>
+              <span class="tag tag-secondary">C++</span>
+              <span class="tag tag-secondary">SQL</span>
+              <span class="tag tag-secondary">Bash</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-database skill-cat-icon"></i> Data &amp; Backend
+            </h4>
+            <div class="skill-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">ETL Pipelines</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-wrench skill-cat-icon"></i> Engineering Practices
+            </h4>
+            <div class="skill-tags">
+              <span class="tag">Monitoring &amp; Logging</span>
+              <span class="tag">Benchmarking</span>
+              <span class="tag">A/B Testing</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Certifications -->
+        <section class="sidebar-section" id="certs">
+          <h3 class="sidebar-heading">Certifications</h3>
+          <div class="cert-item">
+            <div class="cert-name">
+              <i class="fab fa-aws cert-icon"></i>
+              AWS Certified Cloud Practitioner
+            </div>
+            <div class="cert-issuer">Amazon Web Services</div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-name">
+              <i class="fab fa-github cert-icon cert-icon--gh"></i>
+              <a href="https://www.credly.com/badges/867d596c-32de-40ac-b523-394dec70ae6b/linked_in_profile"
+                target="_blank" rel="noopener" class="cert-link">
+                GitHub Foundations
+              </a>
+            </div>
+            <div class="cert-issuer">GitHub · Verified on Credly</div>
+          </div>
+          <div class="cert-item">
+            <div class="cert-name">
+              <i class="fas fa-language cert-icon cert-icon--lang"></i>
+              <a href="https://cert.efset.org/2TCVir" target="_blank" rel="noopener" class="cert-link">
+                English Proficiency — C2
+              </a>
+            </div>
+            <div class="cert-issuer">EF SET · Full Professional Proficiency</div>
+          </div>
+        </section>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Soft Skills -->
+        <section class="sidebar-section" id="softskills">
+          <h3 class="sidebar-heading">Soft Skills</h3>
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-comments skill-cat-icon"></i> Communication
+            </h4>
+            <div class="skill-tags">
+              <span class="tag tag-soft">Technical Writing</span>
+              <span class="tag tag-soft">Documentation</span>
+              <span class="tag tag-soft">Async Collaboration</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-users skill-cat-icon"></i> Teamwork
+            </h4>
+            <div class="skill-tags">
+              <span class="tag tag-soft">Cross-functional Teams</span>
+              <span class="tag tag-soft">Sprint Planning</span>
+              <span class="tag tag-soft">Mentoring</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h4 class="skill-category">
+              <i class="fas fa-brain skill-cat-icon"></i> Problem Solving
+            </h4>
+            <div class="skill-tags">
+              <span class="tag tag-soft">Research</span>
+              <span class="tag tag-soft">Analytical Thinking</span>
+              <span class="tag tag-soft">Benchmarking</span>
+            </div>
+          </div>
+        </section>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Leadership -->
+        <section class="sidebar-section" id="leadership">
+          <h3 class="sidebar-heading">Leadership &amp; Activities</h3>
+          <div class="lead-item">
+            <div class="lead-role">Technical Lead</div>
+            <div class="lead-org">Chandigarh University Astronomy Club</div>
+          </div>
+          <div class="lead-item">
+            <div class="lead-role">Member</div>
+            <div class="lead-org">IEEE Delhi Section</div>
+          </div>
+        </section>
+
+      </div><!-- /sidebar -->
+
+      <!-- ─── MAIN CONTENT ─── -->
+      <div class="main-content">
+
+        <!-- ── EXPERIENCE ── -->
+        <section id="experience">
+          <h2 class="section-heading">
+            <i class="fas fa-briefcase section-icon"></i>
+            Research &amp; Professional Experience
+          </h2>
+
+          <!-- INGEN LABS -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-left">
+                <div class="experience-title">DevOps &amp; Cloud Engineering Intern</div>
+                <div class="experience-company">
+                  <i class="fas fa-building exp-org-icon"></i>
+                  INGEN Labs
+                </div>
+              </div>
+              <div class="experience-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i>
+                  Feb 2026 – May 2026
+                </span>
+              </div>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Supported cloud infrastructure workflows, deployment automation, and CI/CD
+                pipelines on Linux environments.</li>
+              <li><strong>Impact:</strong> Maintained deployment reliability and operational stability for live
+                production applications.</li>
+              <li><strong>Why:</strong> Gained hands-on exposure to real-world DevOps practices — bridging academic
+                cloud knowledge with production-grade systems.</li>
+            </ul>
+          </div>
+
+          <!-- IIT Roorkee -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-left">
+                <div class="experience-title">Research Intern</div>
+                <div class="experience-company">
+                  <i class="fas fa-building exp-org-icon"></i>
+                  IIT Roorkee — SPARK Research Internship
+                </div>
+              </div>
+              <div class="experience-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i>
+                  May 2025 – Jun 2025
+                </span>
+              </div>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Built an end-to-end ML pipeline automating data ingestion, training, and
+                evaluation for a renewable energy forecasting problem.</li>
+              <li><strong>Impact:</strong> Reduced prediction error to <strong>11.5%</strong> via systematic
+                cross-validation and pipeline tuning.</li>
+              <li><strong>Why:</strong> Documented infrastructure and methodology to ensure reproducibility across
+                research stakeholders and future iterations.</li>
+            </ul>
+          </div>
+
+          <!-- DeepLearning.AI -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-left">
+                <div class="experience-title">QA Tester — AI/ML Specializations</div>
+                <div class="experience-company">
+                  <i class="fas fa-building exp-org-icon"></i>
+                  DeepLearning.AI
+                </div>
+              </div>
+              <div class="experience-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i>
+                  Jun 2023 – Apr 2025
+                </span>
+              </div>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Validated datasets, coding exercises, and evaluation pipelines across
+                cloud-hosted AI/ML specializations.</li>
+              <li><strong>Impact:</strong> Identified bugs and pipeline failures that affected course reliability for a
+                global learner base.</li>
+              <li><strong>Why:</strong> Collaborated asynchronously with distributed international teams to ship stable,
+                production-quality course environments.</li>
+            </ul>
+          </div>
+
+          <!-- Divine Himalayan Foundation -->
+          <div class="experience-item">
+            <div class="experience-header">
+              <div class="experience-left">
+                <div class="experience-title">Operations Intern</div>
+                <div class="experience-company">
+                  <i class="fas fa-building exp-org-icon"></i>
+                  Divine Himalayan Foundation
+                </div>
+              </div>
+              <div class="experience-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i>
+                  May 2024 – Jul 2024
+                </span>
+              </div>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Integrated Razorpay payment infrastructure — API configuration, webhook
+                testing, and workflow automation.</li>
+              <li><strong>Impact:</strong> Enabled seamless international donation processing for a Himalayan
+                non-profit.</li>
+              <li><strong>Why:</strong> Expanded the foundation's donor reach globally by replacing manual payment
+                workflows with a reliable digital pipeline.</li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ── PROJECTS ── -->
+        <section id="projects">
+          <h2 class="section-heading">
+            <i class="fas fa-code-branch section-icon"></i>
+            Projects &amp; Publications
+          </h2>
+
+          <!-- ACROSET 2026 -->
+          <div class="project-item project-item--featured">
+            <div class="project-header">
+              <div class="project-left">
+                <div class="project-title">
+                  Last-Mile Delivery Routing Under Uncertainty: A Stochastic VRP Study for Urban Chandigarh
+                </div>
+                <div class="project-links">
+                  <span class="pub-badge pub-badge--ieee">
+                    <i class="fas fa-book-open"></i> IEEE · ACROSET 2026
+                  </span>
+                  <a href="https://acroset.in" target="_blank" rel="noopener" class="project-link">
+                    <i class="fas fa-external-link-alt"></i> acroset.in
+                  </a>
+                  <a href="https://github.com/aryan-0102" target="_blank" rel="noopener" class="project-link">
+                    <i class="fab fa-github"></i> ChandiSVRPBench
+                  </a>
+                </div>
+              </div>
+              <div class="project-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i> 2026
+                </span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tag tag-tech">Python</span>
+              <span class="tag tag-tech">OR-Tools</span>
+              <span class="tag tag-tech">ALNS</span>
+              <span class="tag tag-tech">ACO</span>
+              <span class="tag tag-tech">ABC</span>
+              <span class="tag tag-tech">ARIMA</span>
+              <span class="tag tag-tech">LSTM</span>
+              <span class="tag tag-tech">SPO+</span>
+              <span class="tag tag-tech">OSMnx</span>
+              <span class="tag tag-tech">Stochastic VRP</span>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Extended SVRPBench to Chandigarh — full pipeline from open data to optimised
+                routes using ARIMA, LSTM, SPO+, OR-Tools, ALNS, ACO, and ABC with a Monte Carlo scenario simulator.</li>
+              <li><strong>Impact:</strong> OR-Tools achieved lowest cost (−4.09%); ALNS reduced mean lateness by 12.34%
+                vs. ABC; nearest-neighbour ran ~65% faster than ALNS at competitive quality.</li>
+              <li><strong>Why:</strong> Demonstrated that deterministic and improvement-based solvers remain highly
+                competitive in real urban stochastic environments.</li>
+            </ul>
+            <div class="paper-abstract-toggle">
+              <button class="abstract-btn" onclick="toggleAbstract(this)" aria-expanded="false">
+                <i class="fas fa-chevron-down"></i> Abstract
+              </button>
+              <div class="paper-abstract" hidden>
+                <p>Replication and extension of SVRPBench for last-mile delivery in Chandigarh, India. Pipeline
+                  integrates spatio-temporal demand forecasting (ARIMA, LSTM, SPO+) with metaheuristic and classical
+                  solvers (OR-Tools, ALNS, ACO, ABC). Scenario-based simulation tests robustness under traffic noise and
+                  demand uncertainty. Improvement-based heuristics consistently outperform swarm methods.</p>
+                <p class="abstract-keywords"><strong>Index Terms:</strong> Stochastic VRP, SDVRP, Last-Mile Delivery,
+                  Demand Forecasting, Metaheuristics, Benchmarking</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CloudCompress -->
+          <div class="project-item project-item--cloud">
+            <div class="project-header">
+              <div class="project-left">
+                <div class="project-title">
+                  <i class="fas fa-cloud-upload-alt project-title-icon"></i>
+                  CloudCompress — Cloud-Native Document Processing Platform
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/aryan-0102" target="_blank" rel="noopener" class="project-link">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                  <span class="infra-badge">
+                    <i class="fab fa-aws"></i> Production-Style AWS Architecture
+                  </span>
+                </div>
+              </div>
+              <div class="project-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i> 2025
+                </span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tag tag-cloud">Python</span>
+              <span class="tag tag-cloud">Streamlit</span>
+              <span class="tag tag-cloud">AWS S3</span>
+              <span class="tag tag-cloud">Lambda</span>
+              <span class="tag tag-cloud">SQS</span>
+              <span class="tag tag-cloud">DynamoDB</span>
+              <span class="tag tag-cloud">Cognito</span>
+              <span class="tag tag-cloud">CloudWatch</span>
+              <span class="tag tag-cloud">Terraform</span>
+              <span class="tag tag-cloud">Docker</span>
+              <span class="tag tag-cloud">GitHub Actions</span>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Cloud-native document processing platform — S3 → SQS → Lambda event-driven
+                pipeline with Cognito auth, DynamoDB metadata, and CloudWatch observability.</li>
+              <li><strong>Impact:</strong> Fully production-ready from day one: IaC via Terraform, Dockerised Streamlit
+                frontend, automated build-test-deploy via GitHub Actions.</li>
+              <li><strong>Why:</strong> Built to demonstrate real cloud-native design patterns — decoupled services,
+                independent scaling, and operational visibility — beyond a simple utility.</li>
+            </ul>
+          </div>
+
+
+          <!-- Delivery Route Optimization -->
+          <div class="project-item">
+            <div class="project-header">
+              <div class="project-left">
+                <div class="project-title">Delivery Route Optimization</div>
+                <div class="project-links">
+                  <span class="pub-badge">
+                    <i class="fas fa-file-alt"></i> Published at ICCTDC 2025
+                  </span>
+                  <a href="https://ieeexplore.ieee.org/document/11158753/" target="_blank" rel="noopener"
+                    class="project-link project-link--ieee">
+                    <i class="fas fa-external-link-alt"></i> IEEE Xplore
+                  </a>
+                </div>
+              </div>
+              <div class="project-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i> 2025
+                </span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tag tag-tech">Python</span>
+              <span class="tag tag-tech">ABC Algorithm</span>
+              <span class="tag tag-tech">VRP</span>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Built a VRP solver using the Artificial Bee Colony Algorithm for city-scale
+                last-mile delivery routing.</li>
+              <li><strong>Impact:</strong> Achieved a <strong>33% reduction in delivery time</strong> across benchmark
+                test cases.</li>
+              <li><strong>Why:</strong> Demonstrated swarm intelligence as a viable approach to combinatorial logistics
+                optimisation — accepted at ICCTDC 2025.</li>
+            </ul>
+          </div>
+
+          <!-- Swasth AI -->
+          <div class="project-item">
+            <div class="project-header">
+              <div class="project-left">
+                <div class="project-title">Swasth AI — Mental Health Support Platform</div>
+                <div class="project-links">
+                  <span class="award-badge">
+                    <i class="fas fa-trophy"></i> 1st Place — University Hackathon (1,000+ participants)
+                  </span>
+                </div>
+              </div>
+              <div class="project-right">
+                <span class="date-badge">
+                  <i class="fas fa-calendar-alt"></i> 2024
+                </span>
+              </div>
+            </div>
+            <div class="project-tech">
+              <span class="tag tag-tech">Python</span>
+              <span class="tag tag-tech">ML</span>
+              <span class="tag tag-tech">Conversational AI</span>
+              <span class="tag tag-tech">Stress Detection</span>
+            </div>
+            <ul class="experience-bullets">
+              <li><strong>What:</strong> Built an AI-assisted mental health platform integrating conversational AI and
+                ML-based stress detection.</li>
+              <li><strong>Impact:</strong> Won <strong>1st place</strong> in a university hackathon among 1,000+
+                participants.</li>
+              <li><strong>Why:</strong> Led team coordination, sprint planning, and infra setup to ship a fully working
+                demo under competition time pressure.</li>
+            </ul>
+          </div>
+        </section>
+
+      </div><!-- /main-content -->
+
+    </div><!-- /content-row -->
+  </div><!-- /main-container -->
+
+  <!-- ═══════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════ -->
+  <footer class="site-footer no-print">
+    <div class="container">
+      <p>Built with the <a href="https://github.com/sproogen/modern-resume-theme" target="_blank" rel="noopener">Modern
+          Resume Theme</a> &mdash; Aryan Dhasmana &copy; 2025</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleAbstract(btn) {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      const abstract = btn.nextElementSibling;
+      btn.setAttribute('aria-expanded', String(!expanded));
+      abstract.hidden = expanded;
+      const icon = btn.querySelector('i');
+      icon.style.transform = expanded ? '' : 'rotate(180deg)';
+    }
+  </script>
+</body>
+
 </html>
